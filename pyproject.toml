@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "bento-b-aiefficiency_jd191"
+name = "bento-b-rerank_candidate_truncation_threshold_scan"
 version = "0.1.0"
 description = "为每一项打分并与阈值比较，明确标出通过、边界与不通过三档"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://bento-b.github.io"
-Repository = "https://github.com/bento-b/aiefficiency_jd191"
-Issues = "https://github.com/bento-b/aiefficiency_jd191/issues"
+Repository = "https://github.com/bento-b/rerank_candidate_truncation_threshold_scan"
+Issues = "https://github.com/bento-b/rerank_candidate_truncation_threshold_scan/issues"
 
 [project.scripts]
-aiefficiency_jd191 = "aiefficiency_jd191:main"
+rerank_candidate_truncation_threshold_scan = "rerank_candidate_truncation_threshold_scan:main"
 
 [tool.setuptools]
-py-modules = ["aiefficiency_jd191"]
+py-modules = ["rerank_candidate_truncation_threshold_scan"]
